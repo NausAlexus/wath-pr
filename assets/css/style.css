@@ -823,16 +823,19 @@ a {
 }
 
 .form-content button {
-  background-color: var(--prime);
+  background-color: #707070;
   color: white;
   cursor: pointer;
   font-size: 1.1rem;
   border: none;
+  transition: all 0.2s ease-in-out;
 }
 
 .form-content button:hover {
-  background-color: var(--prime-l);
+  background-color: #525252;
 }
+
+
 
 .form-content label {
   font-size: 1rem;

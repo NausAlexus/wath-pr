@@ -444,7 +444,7 @@ a {
 
 .instructions-title {
   font-size: 2.5rem;
-  color: #333;
+  color: #ffffffb4;
   margin-bottom: 40px;
 }
 
@@ -458,28 +458,11 @@ a {
   display: flex;
   align-items: center;
   gap: 20px;
-  background-color: #fff;
+  background-color: #4b4b4b;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.instruction-step:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
-}
-
-.step-number {
-  font-size: 2rem;
-  color: #fff;
-  background-color: var(--prime);
-  width: 50px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
 }
 
 .step-content {
@@ -488,13 +471,13 @@ a {
 
 .step-heading {
   font-size: 1.5rem;
-  color: var(--prime-l);
+  color: rgba(255, 255, 255, 0.804);
   margin-bottom: 10px;
 }
 
 .step-details {
   font-size: 1rem;
-  color: #555;
+  color: #f4cb72;
 }
 
 .contact-section {
@@ -555,29 +538,29 @@ a {
   border: 0;
 }
 
-.faq-section {
+.questions-section {
   padding: 40px 20px;
-  background-color: #f9f9f9;
+  background-color: #000000;
 }
 
-.faq-title {
+.questions-title {
   text-align: center;
   font-size: 2.5rem;
-  color: #333;
+  color: #ffffffd0;
   margin-bottom: 20px;
 }
 
-.faq-container {
+.questions-container {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.faq-item {
+.question-item {
   border-bottom: 1px solid #ddd;
   margin-bottom: 10px;
 }
 
-.faq-question {
+.question-query {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -589,104 +572,102 @@ a {
   text-align: left;
   cursor: pointer;
   outline: none;
-  color: #333;
+  color: #ffffffc3;
   transition: background-color 0.3s;
 }
 
-.faq-question:hover {
-  background-color: #ececec;
-}
-
-.faq-question span {
+.question-query span {
   font-size: 1.5rem;
   transition: transform 0.3s;
 }
 
-.faq-answer {
+.question-answer {
   max-height: 0;
   overflow: hidden;
   padding: 0 20px;
   font-size: 1rem;
-  color: #666;
+  color: #efc086;
   transition: max-height 0.3s ease-in-out;
 }
 
-.faq-answer p {
+.question-answer p {
   margin: 10px 0;
 }
 
-.faq-item.active .faq-answer {
+.question-item.active .question-answer {
   max-height: 100px;
 }
 
-.faq-item.active .faq-question span {
+.question-item.active .faq-question span {
   transform: rotate(45deg);
 }
 
 
 
-.why-choose-us {
+
+
+
+
+
+.our-advantages {
   padding: 60px 20px;
-  background-color: #f9f9f9;
+  background-color: #000000;
   max-width: 1200px;
   margin: auto;
 }
 
-.why-choose-header {
+.advantages-header {
   text-align: center;
   margin-bottom: 40px;
 }
 
-.why-choose-header h2 {
+.advantages-header h2 {
   font-size: 2.5rem;
-  color: #333;
+  color: #ffffffca;
 }
 
-.why-choose-header p {
+.advantages-header p {
   font-size: 1rem;
-  color: #666;
+  color: #ffffffcc;
   margin-top: 10px;
 }
 
-.benefits-container {
+.advantages-list {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
 }
 
-.benefit-item {
+.advantage-item {
   text-align: center;
   flex: 1 1 calc(25% - 20px);
   max-width: 250px;
   padding: 20px;
-  background: #fff;
-  border: 1px solid #e0e0e0;
+  background: #4b4b4b;
   border-radius: 8px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.benefit-item img {
+.advantage-item img {
   width: 60px;
   margin-bottom: 20px;
+  border-radius: 50%;
 }
 
-.benefit-item h3 {
+.advantage-item h3 {
   font-size: 1.25rem;
-  color: #333;
+  color: #ffffffc7;
   margin-bottom: 10px;
 }
 
-.benefit-item p {
+.advantage-item p {
   font-size: 0.95rem;
-  color: #666;
+  color: #f2ca8f;
 }
 
-.benefit-item:hover {
-  transform: translateY(-10px);
-  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
-}
+
 
 
 
@@ -700,13 +681,13 @@ a {
 
 .gift-ideas h2 {
   font-size: 2rem;
-  color: #333;
+  color: #ffffffc5;
   margin-bottom: 20px;
 }
 
 .gift-ideas p {
   font-size: 1.1rem;
-  color: #666;
+  color: #fac58c;
   margin-bottom: 30px;
 }
 
@@ -758,7 +739,7 @@ a {
 
 .contact-form-section {
   padding: 40px 20px;
-  background-color: #f9f9f9;
+  background-color: #000000;
 
 }
 
@@ -791,7 +772,7 @@ a {
   flex: 1;
   max-width: 500px;
   padding: 20px;
-  background-color: #fff;
+  background-color: #4b4b4b;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -823,15 +804,16 @@ a {
 }
 
 .form-content button {
-  background-color: var(--prime);
+  background-color: rgb(94, 94, 94);
   color: white;
   cursor: pointer;
   font-size: 1.1rem;
   border: none;
+  transition: background-color 0.3s ease;
 }
 
 .form-content button:hover {
-  background-color: var(--prime-l);
+  background-color: rgba(94, 94, 94, 0.416);
 }
 
 .form-content label {
@@ -1762,12 +1744,12 @@ a {
     min-width: 100%;
   }
 
-  .benefits-container {
+  .advantages-list {
     flex-direction: column;
     align-items: center;
   }
 
-  .benefit-item {
+  .advantage-item {
     flex: 1 1 100%;
     max-width: 100%;
   }
@@ -1784,11 +1766,11 @@ a {
     font-size: 1rem;
   }
 
-  .faq-title {
+  .questions-title {
     font-size: 2rem;
   }
 
-  .faq-question {
+  .question-query {
     font-size: 1rem;
     padding: 12px 15px;
   }
@@ -1807,7 +1789,7 @@ a {
     max-width: 100%;
   }
 
-  .faq-answer {
+  .question-answer {
     font-size: 0.9rem;
   }
 
@@ -2054,4 +2036,15 @@ a {
 	.company-info-image img:hover {
 		transform: scale(1.05);
 	}
+  .instruction-step:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  .question-query:hover {
+    background-color: #767676;
+  }
+  .advantage-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+  }
 }

@@ -429,47 +429,32 @@ a {
   margin-bottom: 20px;
 }
 
-.product-button {
-  display: inline-block;
-  padding: 12px 20px;
-  background-color: #007bff;
-  color: #fff;
-  text-decoration: none;
-  font-size: 1rem;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-.product-button:hover {
-  background-color: #0056b3;
-}
 
 
-
-.how-to-order {
+.order-instructions {
   padding: 60px 20px;
   
   text-align: center;
 }
 
-.how-to-order-container {
+.instructions-container {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.how-to-order-title {
+.instructions-title {
   font-size: 2.5rem;
   color: #333;
   margin-bottom: 40px;
 }
 
-.how-to-order-steps {
+.instructions-steps {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
 
-.step {
+.instruction-step {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -480,7 +465,7 @@ a {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.step:hover {
+.instruction-step:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
@@ -501,13 +486,13 @@ a {
   text-align: left;
 }
 
-.step-title {
+.step-heading {
   font-size: 1.5rem;
   color: var(--prime-l);
   margin-bottom: 10px;
 }
 
-.step-description {
+.step-details {
   font-size: 1rem;
   color: #555;
 }
@@ -1846,7 +1831,7 @@ a {
     gap: 20px;
   }
 
-  .step {
+  .instruction-step {
     flex-direction: column;
     text-align: center;
   }

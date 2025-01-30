@@ -444,7 +444,7 @@ a {
 
 .instructions-title {
   font-size: 2.5rem;
-  color: #333;
+  color: #ffffffb4;
   margin-bottom: 40px;
 }
 
@@ -458,28 +458,11 @@ a {
   display: flex;
   align-items: center;
   gap: 20px;
-  background-color: #fff;
+  background-color: #4b4b4b;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.instruction-step:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
-}
-
-.step-number {
-  font-size: 2rem;
-  color: #fff;
-  background-color: var(--prime);
-  width: 50px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
 }
 
 .step-content {
@@ -488,13 +471,13 @@ a {
 
 .step-heading {
   font-size: 1.5rem;
-  color: var(--prime-l);
+  color: rgba(255, 255, 255, 0.804);
   margin-bottom: 10px;
 }
 
 .step-details {
   font-size: 1rem;
-  color: #555;
+  color: #f4cb72;
 }
 
 .contact-section {
@@ -535,12 +518,9 @@ a {
 }
 
 .contact-info a {
-  color: #00d1b2;
+  color: #eecc89;
   text-decoration: none;
-}
-
-.contact-info a:hover {
-  text-decoration: underline;
+  transition: color 0.3s ease;
 }
 
 .contact-map {
@@ -555,29 +535,29 @@ a {
   border: 0;
 }
 
-.faq-section {
+.questions-section {
   padding: 40px 20px;
-  background-color: #f9f9f9;
+  background-color: #000000;
 }
 
-.faq-title {
+.questions-title {
   text-align: center;
   font-size: 2.5rem;
-  color: #333;
+  color: #ffffffd0;
   margin-bottom: 20px;
 }
 
-.faq-container {
+.questions-container {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.faq-item {
+.question-item {
   border-bottom: 1px solid #ddd;
   margin-bottom: 10px;
 }
 
-.faq-question {
+.question-query {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -589,104 +569,102 @@ a {
   text-align: left;
   cursor: pointer;
   outline: none;
-  color: #333;
+  color: #ffffffc3;
   transition: background-color 0.3s;
 }
 
-.faq-question:hover {
-  background-color: #ececec;
-}
-
-.faq-question span {
+.question-query span {
   font-size: 1.5rem;
   transition: transform 0.3s;
 }
 
-.faq-answer {
+.question-answer {
   max-height: 0;
   overflow: hidden;
   padding: 0 20px;
   font-size: 1rem;
-  color: #666;
+  color: #efc086;
   transition: max-height 0.3s ease-in-out;
 }
 
-.faq-answer p {
+.question-answer p {
   margin: 10px 0;
 }
 
-.faq-item.active .faq-answer {
+.question-item.active .question-answer {
   max-height: 100px;
 }
 
-.faq-item.active .faq-question span {
+.question-item.active .faq-question span {
   transform: rotate(45deg);
 }
 
 
 
-.why-choose-us {
+
+
+
+
+
+.our-advantages {
   padding: 60px 20px;
-  background-color: #f9f9f9;
+  background-color: #000000;
   max-width: 1200px;
   margin: auto;
 }
 
-.why-choose-header {
+.advantages-header {
   text-align: center;
   margin-bottom: 40px;
 }
 
-.why-choose-header h2 {
+.advantages-header h2 {
   font-size: 2.5rem;
-  color: #333;
+  color: #ffffffca;
 }
 
-.why-choose-header p {
+.advantages-header p {
   font-size: 1rem;
-  color: #666;
+  color: #ffffffcc;
   margin-top: 10px;
 }
 
-.benefits-container {
+.advantages-list {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
 }
 
-.benefit-item {
+.advantage-item {
   text-align: center;
   flex: 1 1 calc(25% - 20px);
   max-width: 250px;
   padding: 20px;
-  background: #fff;
-  border: 1px solid #e0e0e0;
+  background: #4b4b4b;
   border-radius: 8px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.benefit-item img {
+.advantage-item img {
   width: 60px;
   margin-bottom: 20px;
+  border-radius: 50%;
 }
 
-.benefit-item h3 {
+.advantage-item h3 {
   font-size: 1.25rem;
-  color: #333;
+  color: #ffffffc7;
   margin-bottom: 10px;
 }
 
-.benefit-item p {
+.advantage-item p {
   font-size: 0.95rem;
-  color: #666;
+  color: #f2ca8f;
 }
 
-.benefit-item:hover {
-  transform: translateY(-10px);
-  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
-}
+
 
 
 
@@ -700,13 +678,13 @@ a {
 
 .gift-ideas h2 {
   font-size: 2rem;
-  color: #333;
+  color: #ffffffc5;
   margin-bottom: 20px;
 }
 
 .gift-ideas p {
   font-size: 1.1rem;
-  color: #666;
+  color: #fac58c;
   margin-bottom: 30px;
 }
 
@@ -758,7 +736,7 @@ a {
 
 .contact-form-section {
   padding: 40px 20px;
-  background-color: #f9f9f9;
+  background-color: #000000;
 
 }
 
@@ -791,14 +769,14 @@ a {
   flex: 1;
   max-width: 500px;
   padding: 20px;
-  background-color: #fff;
+  background-color: #4b4b4b;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .form-content h2 {
   font-size: 1.8rem;
-  color: #333;
+  color: #ffffffc2;
   margin-bottom: 20px;
 }
 
@@ -817,29 +795,25 @@ a {
   padding: 10px;     
   font-size: 1rem;  
   border-radius: 8px;
-  border: 1px solid #ccc;
   box-sizing: border-box;  
   max-height: 260px;
+  background-color: rgb(174, 174, 174);
+  color: rgba(255, 255, 255, 0.773);
 }
 
 .form-content button {
-  background-color: #707070;
+  background-color: rgb(94, 94, 94);
   color: white;
   cursor: pointer;
   font-size: 1.1rem;
   border: none;
-  transition: all 0.2s ease-in-out;
+  transition: background-color 0.3s ease;
 }
-
-.form-content button:hover {
-  background-color: #525252;
-}
-
 
 
 .form-content label {
   font-size: 1rem;
-  color: #555;
+  color: #ffffffd2;
 }
 
 .checkbox {
@@ -1440,14 +1414,14 @@ a {
 .blog__title {
   text-align: center;
   font-size: 2rem;
-  color: var(--text-color);
+  color: rgba(255, 255, 255, 0.729);
   margin-bottom: 10px;
 }
 
 .blog__subtitle {
   text-align: center;
   font-size: 1.2rem;
-  color: #555;
+  color: #ffffffa4;
   margin-bottom: 30px;
 }
 
@@ -1458,16 +1432,11 @@ a {
 }
 
 .blog__card {
-  background-color: #fff;
+  background-color: #4b4b4b;
   border-radius: var(--border-radius);
   box-shadow: var(--card-shadow);
   overflow: hidden;
-  transition: transform var(--transition-speed), box-shadow var(--transition-speed);
-}
-
-.blog__card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
 }
 
 .blog__image {
@@ -1478,18 +1447,18 @@ a {
 
 .blog__heading {
   font-size: 1.2rem;
-  color: var(--text-color);
+  color: rgba(255, 255, 255, 0.77);
   margin: 15px;
 }
 
 .blog__text {
-  color: #666;
+  color: #efbf7b;
   margin: 0 15px 15px 15px;
 }
 
 .blog__link {
   display: block;
-  color: var(--primary-color);
+  color: rgb(255, 255, 255);
   font-weight: bold;
   text-align: center;
   margin: 10px 0;
@@ -1497,26 +1466,25 @@ a {
   padding: 10px;
   background-color: var(--background-color);
   border-radius: var(--border-radius);
-  transition: background-color var(--transition-speed), color var(--transition-speed);
+  transition: color 0.3s ease;
 }
 
 .blog__link:hover {
-  background-color: var(--primary-color);
-  color: #6a5b5b;
+  color: rgba(255, 255, 255, 0.397);
 }
 
 
 
 .seat-covers {
   padding: 40px 20px;
-  background-color: #f9f9f9;
+  background-color: #000000;
 }
 
 .seat-covers__title {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 20px;
-  color: #222;
+  color: #ffffffc4;
 }
 
 .seat-covers__content {
@@ -1537,6 +1505,10 @@ a {
   flex: 2;
 }
 
+.seat-covers__text p{
+  color: rgba(255, 255, 255, 0.752);
+}
+
 .seat-covers__list {
   margin-top: 15px;
   padding-left: 20px;
@@ -1544,7 +1516,7 @@ a {
 
 .seat-covers__list li {
   margin-bottom: 10px;
-  color: #444;
+  color: #f3b281;
 }
 
 .seat-covers__link {
@@ -1565,13 +1537,13 @@ a {
 
 .car-mats__title {
   font-size: 2rem;
-  color: #333;
+  color: #ffffffc0;
   margin-bottom: 20px;
 }
 
 .car-mats__intro {
   margin-bottom: 30px;
-  color: #555;
+  color: #ffffffbf;
 }
 
 .car-mats__grid {
@@ -1581,7 +1553,7 @@ a {
 }
 
 .car-mats__item {
-  background-color: #f2f2f2;
+  background-color: #4b4b4b;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -1591,21 +1563,22 @@ a {
 .car-mats__subtitle {
   font-size: 1.2rem;
   margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.782);
 }
 
 .car-mats__item p {
-  color: #555;
+  color: #f2c07e;
 }
 .accessories {
   padding: 40px 20px;
-  background-color: #f9f9f9;
+  background-color: #000000;
 }
 
 .accessories__title {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 30px;
-  color: #333;
+  color: #ffffffc1;
 }
 
 .accessories__items {
@@ -1615,7 +1588,7 @@ a {
 }
 
 .accessory {
-  background-color: #fff;
+  background-color: #4b4b4b;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
@@ -1631,14 +1604,49 @@ a {
 
 .accessory__name {
   font-size: 1.2rem;
-  color: #222;
+  color: #ffffffbc;
   margin-bottom: 10px;
 }
 
 .accessory p {
-  color: #555;
+  color: #f0bc74;
 }
 
+@media (min-width: 1025px) {
+	.nav-items a:hover {
+		background-color: #ffffff40;
+	}
+	.logo:hover {
+		color: #797979;
+	}
+	.cta-button:hover {
+		background-color: #ffffff40;
+	}
+	.company-info-image img:hover {
+		transform: scale(1.05);
+	}
+  .instruction-step:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  .question-query:hover {
+    background-color: #767676;
+  }
+  .advantage-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  .blog__card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  .contact-info a:hover {
+    color: #d29d33;
+  }
+  .form-content button:hover {
+    background-color: rgba(94, 94, 94, 0.416);
+  }
+}
 
 @media (max-width: 1030px) {
   .hero-title {
@@ -1765,12 +1773,12 @@ a {
     min-width: 100%;
   }
 
-  .benefits-container {
+  .advantages-list {
     flex-direction: column;
     align-items: center;
   }
 
-  .benefit-item {
+  .advantage-item {
     flex: 1 1 100%;
     max-width: 100%;
   }
@@ -1787,11 +1795,11 @@ a {
     font-size: 1rem;
   }
 
-  .faq-title {
+  .questions-title {
     font-size: 2rem;
   }
 
-  .faq-question {
+  .question-query {
     font-size: 1rem;
     padding: 12px 15px;
   }
@@ -1810,7 +1818,7 @@ a {
     max-width: 100%;
   }
 
-  .faq-answer {
+  .question-answer {
     font-size: 0.9rem;
   }
 
@@ -2034,27 +2042,4 @@ a {
   .about-us__text p {
     font-size: 14px;
   }
-}
-
-
-
-
-
-
-
-
-
-@media (min-width: 1025px) {
-	.nav-items a:hover {
-		background-color: #ffffff40;
-	}
-	.logo:hover {
-		color: #797979;
-	}
-	.cta-button:hover {
-		background-color: #ffffff40;
-	}
-	.company-info-image img:hover {
-		transform: scale(1.05);
-	}
 }

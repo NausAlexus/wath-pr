@@ -38,7 +38,7 @@ a {
   top: 10px;
   left: 0;
   width: 100%;
-  background: #474b50;
+  background: #696d71;
   z-index: 1000;
   border-radius: 30px;
 }
@@ -95,19 +95,6 @@ a {
 	height: 3px;
 	background: #C0C0C0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -488,7 +475,7 @@ a {
 .contact-image-container {
   position: relative;
   height: 300px;
-  background: url('../img/contact.png') no-repeat center center/cover;
+  background: url('../img/accessories-3.jpg') no-repeat center center/cover;
 }
 
 .contact-overlay {

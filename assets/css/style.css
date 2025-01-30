@@ -518,12 +518,9 @@ a {
 }
 
 .contact-info a {
-  color: #00d1b2;
+  color: #eecc89;
   text-decoration: none;
-}
-
-.contact-info a:hover {
-  text-decoration: underline;
+  transition: color 0.3s ease;
 }
 
 .contact-map {
@@ -779,7 +776,7 @@ a {
 
 .form-content h2 {
   font-size: 1.8rem;
-  color: #333;
+  color: #ffffffc2;
   margin-bottom: 20px;
 }
 
@@ -798,9 +795,10 @@ a {
   padding: 10px;     
   font-size: 1rem;  
   border-radius: 8px;
-  border: 1px solid #ccc;
   box-sizing: border-box;  
   max-height: 260px;
+  background-color: rgb(174, 174, 174);
+  color: rgba(255, 255, 255, 0.773);
 }
 
 .form-content button {
@@ -818,7 +816,7 @@ a {
 
 .form-content label {
   font-size: 1rem;
-  color: #555;
+  color: #ffffffd2;
 }
 
 .checkbox {
@@ -1419,14 +1417,14 @@ a {
 .blog__title {
   text-align: center;
   font-size: 2rem;
-  color: var(--text-color);
+  color: rgba(255, 255, 255, 0.729);
   margin-bottom: 10px;
 }
 
 .blog__subtitle {
   text-align: center;
   font-size: 1.2rem;
-  color: #555;
+  color: #ffffffa4;
   margin-bottom: 30px;
 }
 
@@ -1437,16 +1435,11 @@ a {
 }
 
 .blog__card {
-  background-color: #fff;
+  background-color: #4b4b4b;
   border-radius: var(--border-radius);
   box-shadow: var(--card-shadow);
   overflow: hidden;
-  transition: transform var(--transition-speed), box-shadow var(--transition-speed);
-}
-
-.blog__card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
 }
 
 .blog__image {
@@ -1457,18 +1450,18 @@ a {
 
 .blog__heading {
   font-size: 1.2rem;
-  color: var(--text-color);
+  color: rgba(255, 255, 255, 0.77);
   margin: 15px;
 }
 
 .blog__text {
-  color: #666;
+  color: #efbf7b;
   margin: 0 15px 15px 15px;
 }
 
 .blog__link {
   display: block;
-  color: var(--primary-color);
+  color: rgb(255, 255, 255);
   font-weight: bold;
   text-align: center;
   margin: 10px 0;
@@ -1476,26 +1469,25 @@ a {
   padding: 10px;
   background-color: var(--background-color);
   border-radius: var(--border-radius);
-  transition: background-color var(--transition-speed), color var(--transition-speed);
+  transition: color 0.3s ease;
 }
 
 .blog__link:hover {
-  background-color: var(--primary-color);
-  color: #6a5b5b;
+  color: rgba(255, 255, 255, 0.397);
 }
 
 
 
 .seat-covers {
   padding: 40px 20px;
-  background-color: #f9f9f9;
+  background-color: #000000;
 }
 
 .seat-covers__title {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 20px;
-  color: #222;
+  color: #ffffffc4;
 }
 
 .seat-covers__content {
@@ -1516,6 +1508,10 @@ a {
   flex: 2;
 }
 
+.seat-covers__text p{
+  color: rgba(255, 255, 255, 0.752);
+}
+
 .seat-covers__list {
   margin-top: 15px;
   padding-left: 20px;
@@ -1523,7 +1519,7 @@ a {
 
 .seat-covers__list li {
   margin-bottom: 10px;
-  color: #444;
+  color: #f3b281;
 }
 
 .seat-covers__link {
@@ -1544,13 +1540,13 @@ a {
 
 .car-mats__title {
   font-size: 2rem;
-  color: #333;
+  color: #ffffffc0;
   margin-bottom: 20px;
 }
 
 .car-mats__intro {
   margin-bottom: 30px;
-  color: #555;
+  color: #ffffffbf;
 }
 
 .car-mats__grid {
@@ -1560,7 +1556,7 @@ a {
 }
 
 .car-mats__item {
-  background-color: #f2f2f2;
+  background-color: #4b4b4b;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -1570,21 +1566,22 @@ a {
 .car-mats__subtitle {
   font-size: 1.2rem;
   margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.782);
 }
 
 .car-mats__item p {
-  color: #555;
+  color: #f2c07e;
 }
 .accessories {
   padding: 40px 20px;
-  background-color: #f9f9f9;
+  background-color: #000000;
 }
 
 .accessories__title {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 30px;
-  color: #333;
+  color: #ffffffc1;
 }
 
 .accessories__items {
@@ -1594,7 +1591,7 @@ a {
 }
 
 .accessory {
-  background-color: #fff;
+  background-color: #4b4b4b;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
@@ -1610,12 +1607,12 @@ a {
 
 .accessory__name {
   font-size: 1.2rem;
-  color: #222;
+  color: #ffffffbc;
   margin-bottom: 10px;
 }
 
 .accessory p {
-  color: #555;
+  color: #f0bc74;
 }
 
 
@@ -2046,5 +2043,12 @@ a {
   .advantage-item:hover {
     transform: translateY(-10px);
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  .blog__card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  .contact-info a:hover {
+    color: #d29d33;
   }
 }
